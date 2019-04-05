@@ -1,6 +1,6 @@
 require 'rails_helper'
 require 'capybara/rspec'
-
+=begin
 describe "the recipe form", :type => :feature do
   it "sets the title" do
     visit '/recipes/new'
@@ -20,3 +20,4 @@ describe "the recipe form", :type => :feature do
     expect(Recipe.last.ingredients.map(&:name)).to eq ['sugar', 'vanilla']
   end
 end
+=end
